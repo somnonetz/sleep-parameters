@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sleep-parameters"
+version = "0.1.0"
+description = "Calculates common sleep parameters defined by AASM"
+authors = ["Dagmar Krefting <dagmar.krefting@htw-berlin.de>"]
+license = "LGPL-3.0"
+readme = "README.md"
+repository = "https://github.com/somnonetz/sleep-parameters/"
+homepage = "https://cbmi.htw-berlin.de/"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pandas = "^0.25.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
